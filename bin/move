@@ -14,5 +14,6 @@ input_to_index(user_input)
 #Converts user's input to array index
 move(board, 0, "X")
 #Calls arguments of the board, index, and the default value of "X"
+move(board, 4, "O")
 display_board(board)
 #Prints updated board with neccessary argument -board
